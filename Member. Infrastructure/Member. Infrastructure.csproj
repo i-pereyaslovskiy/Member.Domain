@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Member._Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Member. Application\Member. Application.csproj" />
+    <ProjectReference Include="..\Member.Domain\Member.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
